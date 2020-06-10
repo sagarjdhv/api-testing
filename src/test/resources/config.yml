@@ -3,5 +3,7 @@ env:
   path: "/v1/Categories/UsedCars.xml"
 
 testData:
+  ## Validate that brand exists
   test1: "Kia"
+  ## Validate that brand does not exists
   test2: "Hispano Suiza"
